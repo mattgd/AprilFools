@@ -1,0 +1,16 @@
+name: AprilFools
+version: ${project.version}
+main: me.mattgd.aprilfools.AprilFools
+author: mattgd
+description: An April Fools Day plugin.
+
+commands:
+   aprilfools:
+      description: Manage the StartupCommands plugin settings.
+      usage: /<command> [args]
+      permission: aprilfools.use
+      aliases: [fool, af]
+permissions:
+   aprilfools.use:
+      description: Allows you to toggle fooling.
+      default: true
